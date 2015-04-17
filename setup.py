@@ -7,7 +7,7 @@ setup(name='txtinkerforge',
       author='dimd',
       author_email='dimd@gmail.com',
       url='https://github.com/dimddev/txtinkerforge',
-      packages=['txtinkerforge'],
+      packages=['txtinkerforge', 'txtinkerforge.txapi'],
       platforms = 'Any',
       install_requires=['Twisted', 'tinkerforge'],
 )

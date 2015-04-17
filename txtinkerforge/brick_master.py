@@ -1,6 +1,6 @@
 __author__ = 'dimd'
 
-from .txapi.txmapper import TxMapper
+from txtinkerforge.txapi.txmapper import TxMapper
 from tinkerforge.brick_master import BrickMaster
 
 
