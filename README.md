@@ -1,6 +1,6 @@
 # txtinkerforge
 
-txtinkerforge it's a simple and experimental API (for now) based on Twisted, which dealing in async way with Bricks and Bricklets developed by tinkerforge.com. 
+txtinkerforge is simple and experimental API (for now) based on Twisted, which dealing in async way with Bricks and Bricklets developed by tinkerforge.com. 
 
 For more information and docs check this http://www.tinkerforge.com/en/doc/Software/API_Bindings_Python.html#api-bindings-python
 
