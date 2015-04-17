@@ -7,9 +7,9 @@ from tinkerforge.ip_connection import IPConnection
 from txtinkerforge.brick_master import TXMaster as Master
 
 # thinker settings
-HOST = "localhost"
+HOST = "192.168.10.138"
 PORT = 4223
-UID = '6K9d341Li7'
+UID = '6K9Li7'
 
 # this connections is blocking
 ipcon = IPConnection()
@@ -26,7 +26,7 @@ class TinkerCommands(Protocol):
 
         data = data.strip('\r\n')
 
-        if data == 'reset':
+        if data == 'get_voltage':
             self.get_voltage()
 
     def connectionMade(self):
